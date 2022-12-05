@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <style>
+        #d1{
+            border-radius: 50%;
+            display: block;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(228, 236, 234);
+        }
+        #d2{
+            display: block;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(228, 236, 234);
+        }
+        #d3{
+            display: block;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(228, 236, 234);
+        }
+        #d4{
+            border-radius: 50%;
+            display: block;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(228, 236, 234);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoaib Ul Hassan</title>
+</head>
+<body>
+    <div style="display: block;">
+        <div id="d1" style="float: left; text-align: center;"><h1>Circle</h1></div>
+        <div id="d2" style="float: left; text-align: center;"><h1>Squre</h1></div>
+        <div id="d3" style="float: left; text-align: center;"><h1>Squre</h1></div>
+        <div id="d4" style="float: left; text-align: center;"><h1>Circle</h1></div>
+    </div>
+
+  
+    <script>
+         //  @author  Shoaib UL Hassan
+        $(document).ready(function(){
+            
+            $("#d1").hover(function(){
+                $("#d1").css("background-color","#5837D0");
+            });
+            $("#d1").mouseleave(function(){
+                $("#d1").css("background-color","rgb(228, 236, 234)");
+            });
+
+            $("#d2").hover(function(){
+                $("#d2").css("background-color","#5DA7DB");
+            });
+            $("#d2").mouseleave(function(){
+                $("#d2").css("background-color","rgb(228, 236, 234)");
+            });
+
+            $("#d3").hover(function(){
+                $("#d3").css("background-color","#7DE5ED");
+            });
+            $("#d3").mouseleave(function(){
+                $("#d3").css("background-color","rgb(228, 236, 234)");
+            });
+            
+            $("#d4").hover(function(){
+                $("#d4").css("background-color","#81C6E8");
+            });
+            $("#d4").mouseleave(function(){
+                $("#d4").css("background-color","rgb(228, 236, 234)");
+            });
+            // @author https://github.com/ShoaibULHassan50
+        });
+    </script>
+</body>
+</html>
